@@ -52,13 +52,14 @@ class StatusController extends \Controller
 
     public function adminerEditor()
     {
-        include __DIR__.'/../../editor-4.2.4.php';
+        include __DIR__.'/../../adminerEditorCustom.php';
     }
 
     public function serverinfo()
     {
 
         $module = \Input::get('module', 'general_info');
+
         $modules_dir = __DIR__ . '/../../dashboard/modules/shell_files/';
         $module = escapeshellcmd($module);
         $shellFile = $modules_dir . $module . '.sh';
@@ -71,10 +72,10 @@ class StatusController extends \Controller
         }
         elseif(!is_file($shellFile))
         {
-            return "Not exists $shellFile";
+            return "Module file $shellFile do not exists";
         }
 
-        return "Not exe";
+        return "Module file is not Executable";
 
 
     }
