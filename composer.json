@@ -1,7 +1,7 @@
 {
     "name": "ognjenm/serverreqcheck",
     "type": "library",
-    "description": ":package_description",
+    "description": "This package adds Adminer, Adminer editor, b374k shell 3.2.3, service status info and linux-dash to your Laravel 4 application.",
     "keywords": [
         "ognjenm",
         "server check"
