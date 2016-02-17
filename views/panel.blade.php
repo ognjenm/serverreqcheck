@@ -1,6 +1,6 @@
 @extends(Config::get('serverreqcheck::masterview'))
 
-@section('pagestyles')
+@section(Config::get('serverreqcheck::csssection'))
     <link href='//fonts.googleapis.com/css?family=Merriweather:300italic,300|Open+Sans:400,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/packages/ognjenm/serverreqcheck/css/main.css">
     <link rel="stylesheet" type="text/css" href="/packages/ognjenm/serverreqcheck/css/themes.css">
@@ -15,7 +15,7 @@
     <![endif]-->
 @stop
 
-@section('content')
+@section(Config::get('serverreqcheck::contentarea'))
 <div ng-app="linuxDash" id="linuxdash" class="old">
 <div class="hero">
     <h4 class="title">System info dashboard</h4>
@@ -33,7 +33,7 @@
 </div>
 @stop
 
-@section('page_level_scripts')
+@section(Config::get('serverreqcheck::javascriptsection'))
     <script src="/packages/ognjenm/serverreqcheck/js/linuxDash.js" type="text/javascript"></script>
     <script src="/packages/ognjenm/serverreqcheck/js/modules.js" type="text/javascript"></script>
     <script src="/packages/ognjenm/serverreqcheck/js/smoothie.min.js" type="text/javascript"></script>

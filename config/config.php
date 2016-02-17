@@ -9,7 +9,9 @@
 return [
     'masterview'=> 'layouts.layout.master',
     'contentarea'=> 'content',
-    'password' => '123456',
+    'csssection'=>'css',
+    'javascriptsection'=>'page_level_scripts',
+    'password' => '1234567',
     'host'=>'localhost',
     'servers'=>[
         ['name' => 'Web Server','port' => 80, 'description' => 'Checking if a web server, such as Apache or Nginx is running.'],

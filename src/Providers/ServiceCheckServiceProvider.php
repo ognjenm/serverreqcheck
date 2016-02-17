@@ -30,7 +30,7 @@ class ServiceCheckServiceProvider extends ServiceProvider
     public function register()
     {
         // load package config
-        $this->app['config']->package('ognjenm/serverreqcheck', __DIR__.'/../config');
+        $this->app['config']->package('ognjenm/serverreqcheck', __DIR__.'/../../config');
 
     }
 

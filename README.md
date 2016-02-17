@@ -7,10 +7,9 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-**Note:** Replace ```Ognjen Miletic``` ```ognjenm``` ```ognjenm.github.io``` ```ognjen.miletic@gmail.com``` ```ognjenm``` ```serverreqcheck``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line.
+Laravel 4 only (For now)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+This package adds Adminer, Adminer editor, b374k shell 3.2.3, service status info and linux-dash to your Laravel 4 application.
 
 ## Install
 
@@ -20,11 +19,27 @@ Via Composer
 $ composer require ognjenm/serverreqcheck
 ```
 
-## Usage
+Add service provider in app.php
+```
+...
+    'ognjenm\serverreqcheck\Providers\ServiceCheckServiceProvider'
+...
+```
 
+Publish assets:
+``` bash
+php artisan asset:publish --bench=ognjenm/serverreqcheck
+```
+
+
+## Usage
+Add links in your application menu:
 ``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+URL::route('servicestatus');
+URL::route('shell');
+URL::route('dbmanager');
+URL::route('dbmanagereditor');
+URL::route('serverinfopanel');
 ```
 
 ## Change log
