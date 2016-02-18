@@ -19,7 +19,7 @@ class ServiceCheckServiceProvider extends ServiceProvider
     {
         $this->package('ognjenm/serverreqcheck');
         $this->loadIncludes();
-        \View::addLocation(__DIR__ . '/../../views');
+       // \View::addLocation(__DIR__ . '/../../views');
     }
 
     /**

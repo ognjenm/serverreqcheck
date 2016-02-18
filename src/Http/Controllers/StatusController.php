@@ -81,7 +81,7 @@ class StatusController extends \Controller
     }
 
     public function serverinfopanel(){
-        return \View::make('panel');
+        return \View::make('serverreqcheck::panel');
     }
 
 
