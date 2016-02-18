@@ -6,7 +6,7 @@
 
 Laravel 4 only (For now)
 
-This package adds Adminer, Adminer editor, b374k shell 3.2.3, service status info and linux-dash to your Laravel 4 application.
+This package adds [Adminer](https://www.adminer.org/), [Adminer editor](https://www.adminer.org/en/editor/), [b374k shell 3.2.3](https://github.com/b374k/b374k), service status info and [linux-dash](https://github.com/afaqurk/linux-dash) to your Laravel 4 application.
 
 ## Install
 
