@@ -2,9 +2,6 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
 Laravel 4 only (For now)
@@ -41,6 +38,18 @@ URL::route('dbmanager');
 URL::route('dbmanagereditor');
 URL::route('serverinfopanel');
 ```
+
+# Screenshots
+
+![sc1](https://github.com/ognjenm/serverreqcheck/raw/master/screenshots/sc1_1.jpg "SC1")
+![sc1](https://github.com/ognjenm/serverreqcheck/raw/master/screenshots/sc2_1.jpg "SC2")
+![sc1](https://github.com/ognjenm/serverreqcheck/raw/master/screenshots/sc3_1.jpg "SC3")
+![sc1](https://github.com/ognjenm/serverreqcheck/raw/master/screenshots/sc4_1.jpg "SC4")
+![sc1](https://github.com/ognjenm/serverreqcheck/raw/master/screenshots/sc5_1.jpg "SC5")
+![sc1](https://github.com/ognjenm/serverreqcheck/raw/master/screenshots/sc6_1.jpg "SC6")
+![sc1](https://github.com/ognjenm/serverreqcheck/raw/master/screenshots/sc7_1.jpg "SC7")
+
+
 
 ## Change log
 
