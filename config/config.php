@@ -9,8 +9,9 @@
 return [
     'masterview'=> 'layouts.layout.master',
     'contentarea'=> 'content',
-    'csssection'=>'css',
+    'csssection'=>'pagestyles',
     'javascriptsection'=>'page_level_scripts',
+    'authfilter'=>'basicAuth',
     'password' => '1234567',
     'host'=>'localhost',
     'servers'=>[

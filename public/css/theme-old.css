@@ -2,12 +2,12 @@
   Theme: linux-dash beta
 **************************************/
 
-/*html.old body .hero {*/
+/*html body .hero {*/
   /*background: #578ebe;*/
   /*color: #ffffff;*/
   /*padding: 0;*/
 /*}*/
-html.old body .hero h4 {
+html body .hero h4 {
   color: #ffffff;
   display: inline-block;
   font-size: 20px;
@@ -17,38 +17,38 @@ html.old body .hero h4 {
   margin: 0;
   vertical-align: middle;
 }
-html.old body .hero small {
+html body .hero small {
   letter-spacing: 0.1rem;
   line-height: 40px;
   margin-left: 20px;
   opacity: 0.9;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
-html.old body .hero #theme-switcher {
+html body .hero #theme-switcher {
   right: -315px;
 }
-html.old body .hero #theme-switcher.open {
+html body .hero #theme-switcher.open {
   right: 0;
 }
-html.old body .hero nav-bar {
+html body .hero nav-bar {
   background: #ffffff;
   border-bottom: 1px solid #d6d6d6;
   color: #333333;
 }
-html.old body .hero nav-bar br {
+html body .hero nav-bar br {
   display: none;
 }
-html.old body .hero nav-bar ul {
+html body .hero nav-bar ul {
   display: inline-block;
 }
-html.old body .hero nav-bar ul li {
+html body .hero nav-bar ul li {
   display: inline-block;
   margin: 0;
 }
-html.old body .hero nav-bar ul li:not(:first-child) {
+html body .hero nav-bar ul li:not(:first-child) {
   border-left: 1px solid #e6e6e6;
 }
-html.old body .hero nav-bar ul li a {
+html body .hero nav-bar ul li a {
   color: #B2AFAA;
   display: block;
   font-size: 12px;
@@ -58,21 +58,21 @@ html.old body .hero nav-bar ul li a {
   padding: 0 15px;
   text-transform: capitalize;
 }
-html.old body .hero nav-bar ul li:hover a {
+html body .hero nav-bar ul li:hover a {
   color: #888888;
 }
-html.old body #plugins {
+html body #plugins {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
 }
-html.old body .plugin {
+html body .plugin {
   border: 1px solid #d5d5d5;
   border-radius: 0 0 5px 5px;
   box-shadow: none;
   margin: 10px;
 }
-html.old body .plugin .top-bar {
+html body .plugin .top-bar {
   background: transparent linear-gradient(to bottom, #f9f6f1 0%, #f2efea 100%) repeat scroll 0px 0px;
   border-bottom: 1px solid #d6d6d6;
   color: #525252;
@@ -85,15 +85,15 @@ html.old body .plugin .top-bar {
   text-align: left;
   text-transform: none;
 }
-html.old body .plugin .top-bar last-update {
+html body .plugin .top-bar last-update {
   float: right;
   margin: 0 10px;
   opacity: 0.8;
 }
-html.old body .plugin .top-bar refresh-btn {
+html body .plugin .top-bar refresh-btn {
   float: right;
 }
-html.old body .plugin .top-bar refresh-btn button {
+html body .plugin .top-bar refresh-btn button {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -109,53 +109,53 @@ html.old body .plugin .top-bar refresh-btn button {
   padding: 0 4px;
   width: auto;
 }
-html.old body .plugin .top-bar refresh-btn button:hover {
+html body .plugin .top-bar refresh-btn button:hover {
   background: #e6e6e6;
 }
-html.old body .plugin .plugin-body {
+html body .plugin .plugin-body {
   border: none;
   height: auto;
   line-height: normal;
   max-height: 300px;
   padding: 0;
 }
-html.old body .plugin .plugin-body table {
+html body .plugin .plugin-body table {
   border-collapse: separate;
   border-spacing: 0;
   font-size: 12px;
   min-width: 300px;
 }
-html.old body .plugin .plugin-body table tr:not(:first-child) th {
+html body .plugin .plugin-body table tr:not(:first-child) th {
   border-top: 1px solid #dddddd;
 }
-html.old body .plugin .plugin-body table td,
-html.old body .plugin .plugin-body table th {
+html body .plugin .plugin-body table td,
+html body .plugin .plugin-body table th {
   border-bottom: none;
   padding: 4px 5px;
 }
-html.old body .plugin .plugin-body table td:not(:first-child),
-html.old body .plugin .plugin-body table th:not(:first-child) {
+html body .plugin .plugin-body table td:not(:first-child),
+html body .plugin .plugin-body table th:not(:first-child) {
   border-left: 1px solid #dddddd;
 }
-html.old body .plugin .plugin-body table th:not(.filter-container) {
+html body .plugin .plugin-body table th:not(.filter-container) {
   background: transparent -moz-linear-gradient(center top, #fafafa 0%, #e9e9e9 100%) repeat scroll 0% 0%;
   text-transform: uppercase;
 }
-html.old body .plugin .plugin-body table th.filter-container .filter {
+html body .plugin .plugin-body table th.filter-container .filter {
   border-bottom: none;
   font-size: 12px;
   height: auto;
   padding: 2px;
 }
-html.old body .plugin .plugin-body table th.filter-container .filter::before {
+html body .plugin .plugin-body table th.filter-container .filter::before {
   content: 'Search >';
   opacity: 0.5;
   position: absolute;
   left: 0;
 }
-html.old body .plugin .plugin-body table td {
+html body .plugin .plugin-body table td {
   border-top: 1px solid #dddddd;
 }
-html.old body .plugin canvas {
+html body .plugin canvas {
   width: 100%;
 }

@@ -723,13 +723,13 @@
 
         // alternate themes available
         scope.themes = [{
-          name: 'winter',
+          name: 'old',
         }, {
-          name: 'summer',
+          name: 'old',
         }, {
-          name: 'spring',
+          name: 'old',
         }, {
-          name: 'fall',
+          name: 'old',
         }, {
           name: 'old',
         }, ];
